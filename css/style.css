@@ -139,6 +139,11 @@ h6,
     z-index: 1;
 }
 
+@media (max-width: 767px) {
+    .banner {
+        display:none;
+    }
+}
 @media (max-width: 576px) {
     .carousel-caption h5 {
         font-size: 14px;

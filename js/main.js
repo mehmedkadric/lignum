@@ -74,5 +74,9 @@
             '<i class="bi bi-arrow-right"></i>'
         ],
     });
+
+    $('.nav-link').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
     
 })(jQuery);

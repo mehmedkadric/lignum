@@ -11,6 +11,10 @@
   text-decoration: inherit;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1,
 h2,
 .font-weight-bold {
@@ -29,8 +33,20 @@ h6,
     font-weight: 500 !important;
 }
 
+.font-text {
+    font-size: 18px;
+}
+
+.font-title {
+    font-size: 24px;
+}
+
+.font-subtitle {
+    font-size: 22px;
+}
+
 .btn {
-    font-family: 'Jost', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -106,7 +122,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Jost', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 35px 15px;
     font-size: 18px;
     color: var(--dark);
@@ -139,11 +155,6 @@ h6,
     z-index: 1;
 }
 
-@media (max-width: 767px) {
-    .banner {
-        display:none;
-    }
-}
 @media (max-width: 576px) {
     .carousel-caption h5 {
         font-size: 14px;
@@ -332,4 +343,35 @@ h6,
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
+}
+
+.contact-us-button {
+    border-radius: 30px;
+}
+
+.open-time {
+    align-items: center;
+}
+
+.services-card {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-contact i {
+    font-size: 25px
+}
+
+@media (max-width: 1210px) {
+    .top-shape::before {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner {
+        display:none;
+    }
 }
